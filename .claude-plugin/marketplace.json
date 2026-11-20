@@ -1,0 +1,12 @@
+{
+  "name": "voice-player",
+  "owner": { "name": "sirlens" },
+  "description": "Claude Code mod that reads assistant answers aloud with a small player.",
+  "plugins": [
+    {
+      "name": "voice-player",
+      "source": "./",
+      "description": "Reads each assistant answer aloud with a band player: pause, resume, next and previous sentence, repeat, speed."
+    }
+  ]
+}

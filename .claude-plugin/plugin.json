@@ -1,0 +1,1 @@
+{ "name": "voice-player", "version": "0.1.0", "description": "Reads each assistant answer aloud with a band player (Windows TTS server): pause, resume, next, previous, speed", "types": "./types/index.d.ts" }
