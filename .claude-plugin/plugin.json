@@ -1,1 +1,13 @@
-{ "name": "voice-player", "version": "0.1.0", "description": "Reads each assistant answer aloud with a band player (Windows TTS server): pause, resume, next, previous, speed", "types": "./types/index.d.ts" }
+{
+  "name": "voice-player",
+  "version": "0.1.0",
+  "description": "Reads every Claude answer aloud, fully offline with Windows' built-in voices, with a player to pause, skip sentences, repeat and change speed.",
+  "author": { "name": "sirlens", "url": "https://github.com/sirlens" },
+  "homepage": "https://github.com/sirlens/voice-player",
+  "repository": "https://github.com/sirlens/voice-player",
+  "license": "MIT",
+  "keywords": ["voice", "tts", "text-to-speech", "offline", "windows", "accessibility"],
+  "icon": "./.claude-plugin/icon.png",
+  "network": { "hosts": ["localhost", "api.nuget.org"] },
+  "types": "./types/index.d.ts"
+}
