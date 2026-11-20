@@ -277,9 +277,9 @@ async function send($: Engine, path: string, body: object = {}): Promise<Status 
       const reply = await withTimeout(
         $,
         $.http.fetch(`http://localhost:${conn.port}${path}`, {
-          method: path === '/status' ? 'GET' : 'POST',
+          method: 'POST',
           headers: { 'X-Voice-Token': conn.token, 'Content-Type': 'application/json' },
-          body: path === '/status' ? undefined : JSON.stringify(body),
+          body: JSON.stringify(body),
         }),
         REQUEST_TIMEOUT_MS,
       )

@@ -6,7 +6,7 @@
     {
       "name": "voice-player",
       "source": "./",
-      "description": "Reads each assistant answer aloud with a band player: pause, resume, next and previous sentence, repeat, speed."
+      "description": "Reads every Claude answer aloud, fully offline with Windows' built-in voices, with a player to pause, skip sentences, repeat and change speed."
     }
   ]
 }
